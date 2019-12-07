@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="XPfX7By" resname="lang">
+        <source>lang</source>
+        <target>__lang</target>
+      </trans-unit>
+      <trans-unit id="ZrFZxMc" resname="partners.button">
+        <source>partners.button</source>
+        <target>__partners.button</target>
+      </trans-unit>
+      <trans-unit id="NcgtC1d" resname="legal.button">
+        <source>legal.button</source>
+        <target>__legal.button</target>
+      </trans-unit>
+      <trans-unit id="cSoRBxB" resname="contactus.button">
+        <source>contactus.button</source>
+        <target>__contactus.button</target>
+      </trans-unit>
+      <trans-unit id="cIwgUtj" resname="translate.button">
+        <source>translate.button</source>
+        <target>__translate.button</target>
+      </trans-unit>
+      <trans-unit id="qTvXLl9" resname="logout.button">
+        <source>logout.button</source>
+        <target>__logout.button</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

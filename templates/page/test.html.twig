@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Translation management !{% endblock %}
+
+{% block body %}
+    <nav class="container">
+        <h1>Locale : {{ app.request.attributes.get('_locale')  }}</h1>
+        <ul>
+            <li>{{ "partners.button"|trans }}</li>
+            <li>{{ "legal.button"|trans }}</li>
+            <li>{{ "contactus.button"|trans }}</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <a href="{{ path('translation_create', {_locale:  app.request.attributes.get('_locale') }) }}" class="btn btn-primary">{{ "translate.button"|trans }}</a>
+        <a href="{{ path('logout') }}" class="btn btn-primary">{{ "logout.button" |trans }}</a>
+    </div>
+{% endblock %}

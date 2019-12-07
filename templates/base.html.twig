@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="{{ "lang"|trans }}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="">
+        <link rel="icon" href="/favicon.ico">
+
+        <title>{% block title %}Japanese school in Tokyo | Shinjuku Japanese Language Institute - SNG{% endblock %}</title>
+
+        <meta name="description" content="SNG, Japanese school since 1975. From 1 month to 2 years of Japanese language courses at the heart of Tokyo. 10 different class levels from beginner to advanced. We provide free study guidance services and interview trainings to help you prepare your future in Japan. ">
+        <meta property="og:title" content="Japanese school in Tokyo | Shinjuku Japanese Language Institute - SNG">
+        <meta property="og:description" content="SNG, Japanese school since 1975. From 1 month to 2 years of Japanese language courses at the heart of Tokyo. 10 different class levels from beginner to advanced. We provide free study guidance services and interview trainings to help you prepare your future in Japan. ">
+        <meta property="og:image" content="http://www.sng.ac.jp/img/sng_logo.jpg">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.sng.ac.jp/en/">
+        <link rel="canonical" href="https://www.sng.ac.jp/en/">
+        <link rel="alternate" href="https://www.sng.ac.jp/jp/" hreflang="ja">
+        <link rel="alternate" href="https://www.sng.ac.jp/en/" hreflang="en-US">
+        <link rel="alternate" href="https://www.sng.ac.jp/ru/" hreflang="ru-RU">
+        <link rel="alternate" href="https://www.sng.ac.jp/fr/" hreflang="fr-FR">
+        <link rel="alternate" href="https://www.sng.ac.jp/pt/" hreflang="pt-BR">
+        <link rel="alternate" href="https://www.sng.ac.jp/tw/" hreflang="zh-Hant">
+        <link rel="alternate" href="https://www.sng.ac.jp/cn/" hreflang="zh-Hans">
+        <link rel="alternate" href="https://www.sng.ac.jp/id/" hreflang="id">
+        <link rel="alternate" href="https://www.sng.ac.jp/it/" hreflang="it">
+        <link rel="alternate" href="https://www.sng.ac.jp/de/" hreflang="de">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="{{ asset('common.min.css','css') }}">
+        <link rel="stylesheet" href="{{ asset('index.min.css','css') }}">
+
+        {% block stylesheets %}{% endblock %}
+
+        <style>
+            .h1,.h2,.h3,.h4,.h5,.h6,.parallax .container p,.parallax h1,body,h1,h2,h3,h4,h5,h6{font-family:Lato,sans-serif}.hidevk{display:none!important}
+            #info-box1{background:url({{  asset('info-box-01.jpg', 'img') }}) center no-repeat;background-size:cover}
+            #info-box2{background:url({{  asset('info-box-02.jpg', 'img') }}) center no-repeat;background-size:cover}
+            #info-box3{background:url({{  asset('higher-education-support.jpg', 'img') }}) center no-repeat;background-size:cover}
+            #info-box4{background:url({{  asset('日本語教師養成講座.jpg', 'img') }}) center no-repeat;background-size:cover}
+        </style>    <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KD3R4TM');</script>
+    </head>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <!-- End Google Tag Manager -->
+    <body>
+
+        <!-- HEADER -->
+        <header>
+            {% include "_partial/header.twig" %}
+        </header>
+
+        <!-- MAIN -->
+        {% block body %}{% endblock %}
+
+        <!-- FOOTER -->
+        <footer class="footer" xmlns="http://www.w3.org/1999/html">
+            {% include "_partial/footer.twig" %}
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="{{ asset('jquery.swipebox.min.js', 'js')}}"></script>
+        <script src="{{ asset('sng.common.js', 'js')}}"></script>
+
+        <!-- JS -->
+        {% block javascript %}{% endblock %}
+    </body>
+</html>

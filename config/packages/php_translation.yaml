@@ -1,0 +1,13 @@
+translation:
+    locales: ["en", "fr", "ja"]
+    edit_in_place:
+        enabled: false
+        config_name: app
+    auto_add_missing_translations:
+        config_name: app
+    configs:
+        app:
+            dirs: ["%kernel.root_dir%/../templates", "%kernel.root_dir%/../src"]
+            output_dir: "%kernel.root_dir%/Resources/translations"
+            remote_storage: ["php_translation.adapter.loco"]
+            #local_storage: ["php_translation.storage.app"]

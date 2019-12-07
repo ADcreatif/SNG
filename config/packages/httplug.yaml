@@ -1,0 +1,24 @@
+httplug:
+    plugins:
+        retry:
+            retry: 1
+
+    discovery:
+        client: 'auto'
+
+    clients:
+        app:
+            http_methods_client: true
+            plugins:
+                - 'httplug.plugin.content_length'
+                - 'httplug.plugin.redirect'
+        loco:
+            factory: 'httplug.factory.guzzle6'
+            plugins:
+                - httplug.plugin.content_length
+                - httplug.plugin.logger
+#            config:
+#                timeout: 2
+
+translation_adapter_loco:
+    httplug_client: httplug.client.loco

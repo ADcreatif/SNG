@@ -1,0 +1,26 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+
+    default_locale: 'en'
+
+    translator:
+        default_path: '%kernel.project_dir%/translations'
+
+    session:
+        handler_id: null
+        cookie_secure: auto
+        cookie_samesite: lax
+
+    php_errors:
+        log: true
+
+    assets:
+        packages:
+            video:
+                base_path: "video"
+            img:
+                base_path: "image"
+            js:
+                base_path: "assets/js"
+            css:
+                base_path: "assets/css"

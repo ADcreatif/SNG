@@ -1,0 +1,9 @@
+translation_adapter_loco:
+# index_parameter: 'id' # 'text' or 'name'. Leave blank for "auto"  See https://localise.biz/api/docs/export/exportlocale
+  httplug_client: httplug.client.loco
+  projects:
+    messages:
+      api_key: 'xm1hb62HStZowOxU8xOhlOMIFyvqZUBBS'
+
+    # read 9UNwlDToB5a45gAngDUhu3Zz_ZrB4irS
+    # full xm1hb62HStZowOxU8xOhlOMIFyvqZUBBS

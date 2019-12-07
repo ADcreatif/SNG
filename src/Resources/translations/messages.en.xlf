@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="messages.en">
+    <unit id="XPfX7By" name="lang">
+      <segment>
+        <source>lang</source>
+        <target>lang</target>
+      </segment>
+    </unit>
+    <unit id="vIsaIpH" name="username.label">
+      <segment>
+        <source>username.label</source>
+        <target>Username</target>
+      </segment>
+    </unit>
+    <unit id="tXPCtsC" name="password.label">
+      <segment>
+        <source>password.label</source>
+        <target>Password</target>
+      </segment>
+    </unit>
+    <unit id="g4NeGFE" name="login.submit.label">
+      <segment>
+        <source>login.submit.label</source>
+        <target>Login</target>
+      </segment>
+    </unit>
+    <unit id="cIwgUtj" name="translate.button">
+      <segment>
+        <source>translate.button</source>
+        <target>Translate</target>
+      </segment>
+    </unit>
+    <unit id="qTvXLl9" name="logout.button">
+      <segment>
+        <source>logout.button</source>
+        <target>Logout</target>
+      </segment>
+    </unit>
+    <unit id="ZrFZxMc" name="partners.button">
+      <segment>
+        <source>partners.button</source>
+        <target>Our partners</target>
+      </segment>
+    </unit>
+    <unit id="NcgtC1d" name="legal.button">
+      <segment>
+        <source>legal.button</source>
+        <target>Legals</target>
+      </segment>
+    </unit>
+    <unit id="cSoRBxB" name="contactus.button">
+      <segment>
+        <source>contactus.button</source>
+        <target>Contact us</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

@@ -13,19 +13,26 @@ php bin/console translation:update --force fr
 check out the command help to see its options (prefix, output, format, domain, etc.)
 php bin/console translation:update --help
 
-##workflow
-- Choisisser un SaaS : loco
-- composer req php-translation/symfony-bundle
-- utilisez ou créez un storage adapter
-- expliquez à votre équipe le workflow
-- formez vos équipes aux outils
+## workflow
+- SAAS translation storage [loco](https://localise.biz/)
+- multilanguage symfony application : __php-translation/symfony-bundle__
+- storage adapter : __loco-adapter__
 
-##Gestion des messages
-- qui ajoute les nouvelles clés
-- nomenclature des clés
-- synchronisation entre code et traduction
+## translation key
+
+ message key               | Description
+ ---                       | ---
+ label.username            | for a form label
+ flash.success_login       | for flash message
+ error.wrong_password      | for error message
+ welcome.h1                | for heading
+ introduction.p0           | for first paragraph 
+ our_values.p1             | for second paragraph 
+ speciel_event.p2.html     | for a paragraph with html
+ thank_you                 | for any common string like "next, yes" etc.
+ course.summer_course.p1   | for any non reusable translation
 
 
-## Installation du CLI
-php -r "copy('https://php-translation.github.io/cli/downloads/translation.phar', 'translation.phar');"
-wget https://php-translation.github.io/cli/downloads/translation.phar
+##  CLI installation
+    php -r "copy('https://php-translation.github.io/cli/downloads/translation.phar', 'translation.phar');"
+    wget https://php-translation.github.io/cli/downloads/translation.phar

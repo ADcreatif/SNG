@@ -1,0 +1,606 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <div class="content">
+        <div class="wallpapered top-video" data-background-options="'embedRatio':{3}" data-wallpaper-options='{
+                "source":{
+                  "webm":"{{ asset('sng-video.webm','video') }}",
+                  "mp4":"video/movie/sng-video.mp4",
+                  "ogg":"video/movie/sng-video.ogv",
+                  "poster":"video/sng-japanese-class.jpg"
+                }
+              }'>
+            <div id="videomessage">
+                <div class="byline pad30"></div>
+                <h1>
+                    Study and experience Japan! </h1>
+                <div>
+                    <a href="/en/contact/" class="byline whitelink">
+                        Apply now </a>
+                </div>
+            </div>
+        </div>
+        <!-- following part is temporary promo or urgent notification --><!--<div class="content">
+            <div class="container" style="text-align:center">
+                <div class="pad10"></div>
+                <h2>
+                    CURRENTLY ACCEPTING APPLICATIONS FOR 2019 OCTOBER		</h2>
+                <a href="./contact/general-inquiry.html" class="bt-samp30" style="font-size: 14px; padding: .3em .5em;">
+                    Inquiry		</a>
+            </div>
+            <div class="pad30"></div>
+        </div>
+        -->
+        <!-- following part is localized -->
+        <div class="container-fluid operation_container">
+            <div class="col-sm-6 col-md-3 operation_item" id="info-box1">
+                <div class="info-box hvr-sweep-to-top">
+                    <div class="header-text">
+                        The Ezoe Method
+                    </div>
+                    <a href="/en/about/ezoe-method.html">
+                        <div class="table-div">
+                            <div class="table-middle-align">
+                                <span class="hidden-text hidden-text-index">Our school uses the original Ezoe method of teaching Japanese, for more efficient Japanese studies</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 operation_item" id="info-box2">
+                <div class="info-box hvr-sweep-to-top">
+                    <div class="header-text">Blended Learning</div>
+                    <a href="/en/about/vlj.html">
+                        <div class="table-div">
+                            <div class="table-middle-align">
+                                <span class="hidden-text hidden-text-index">Learn Japanese faster with our digital contents</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 operation_item" id="info-box3">
+                <div class="info-box hvr-sweep-to-top">
+                    <div class="header-text">
+                        Higher Education Support
+                    </div>
+                    <a href="/en/support/higher-education.html">
+                        <div class="table-div">
+                            <div class="table-middle-align">
+                                <span class="hidden-text hidden-text-index">We help students with our orientation support</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 operation_item" id="info-box4">
+                <div class="info-box hvr-sweep-to-top">
+                    <div class="header-text">Student Support</div>
+                    <a href="/en/support/">
+                        <div class="table-div">
+                            <div class="table-middle-align">
+                                <span class="hidden-text hidden-text-index">We offer support in a variety of ways</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="parallax" data-parallax="scroll" data-image-src="{{ asset('SNG-Pattern-Horizontal-web.png', 'img') }}" data-bleed="10"
+             data-speed="0.3">
+            <div class="container" style="text-align:center">
+                <div class="pad10"></div>
+                <p>
+                    <font size="+3">
+                        Shinjuku Japanese Language Institute has a 40 year old experience in teaching Japanese.<br>
+                        Our school is in the centre of Tokyo, Shinjuku district. </font>
+                </p>
+            </div>
+            <div class="pad20"></div>
+        </div>
+        <div class="content">
+            <div class="pad30"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="ul2 details">
+                            <li class="hvr-sweep-to-top2">
+                                <div class="table-div2">
+                                    <div class="table-middle-align2">
+                                        <h2>
+                                            General Japanese Courses </h2>
+                                        <hr class="hrl">
+                                        <dd>
+                                            <p class="maintext" style="text-align:center">
+                                                <strong>From 3 months to 24 months</strong><br>
+                                                Monday to Friday<br>
+                                                Terms Start: January, April, July, October </p>
+                                            <br>
+                                        </dd>
+                                        <dd>
+                                            <a href="./course/weekday-japanese-course.html" class="bt-samp30">
+                                                See more </a>
+                                        </dd>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pad30"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="ul2 details">
+                            <li class="hvr-sweep-to-top2">
+                                <div class="table-div2">
+                                    <div class="table-middle-align2">
+                                        <h2>
+                                            Summer Course </h2>
+                                        <hr class="hrl">
+                                        <dd>
+                                            <p class="maintext" style="text-align:center">
+                                                <strong>4-weeks short-term course</strong><br>
+                                                Japanese lessons and<br>
+                                                excursions </p>
+                                            <br>
+                                        </dd>
+                                        <dd>
+                                            <a href="./course/summercourse/" target="_blank" class="bt-samp30">
+                                                See more </a>
+                                        </dd>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pad30"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="ul2 details">
+                            <li class="hvr-sweep-to-top2">
+                                <div class="table-div2">
+                                    <div class="table-middle-align2">
+                                        <h2>
+                                            Private Lessons </h2>
+                                        <hr class="hrl">
+                                        <dd>
+                                            <p class="maintext" style="text-align:center">
+                                                <strong>We organize lessons at the Institute </strong><br>
+                                                and in company-owned locations<br>
+                                                according to the students' needs. </p>
+                                            <br>
+                                        </dd>
+                                        <dd>
+                                            <a href="./course/private-lessons.html" class="bt-samp30">
+                                                See more </a>
+                                        </dd>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pad30"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="ul2 details">
+                            <li class="hvr-sweep-to-top2">
+                                <div class="table-div2">
+                                    <div class="table-middle-align2">
+                                        <h2>
+                                            Saturday class </h2>
+                                        <hr class="hrl">
+                                        <dd>
+                                            <p class="maintext" style="text-align:center">
+                                                10 a.m. ~ 12:50 p.m.<br>
+                                                Available in 2 different language levels </p>
+                                            <br>
+                                        </dd>
+                                        <dd>
+                                            <a href="./course/saturday-class.html" class="bt-samp30">
+                                                See more </a>
+                                        </dd>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pad30"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="ul2 details">
+                            <li class="hvr-sweep-to-top2">
+                                <div class="table-div2">
+                                    <div class="table-middle-align2">
+                                        <h2>
+                                            Evening Classes </h2>
+                                        <hr class="hrl">
+                                        <dd>
+                                            <p class="maintext" style="text-align:center">
+                                                Tuesdays and Thursdays<br>
+                                                7 p.m. ~ 8:30 p.m. </p>
+                                            <br>
+                                        </dd>
+                                        <dd>
+                                            <a href="./course/evening-class.html" class="bt-samp30">
+                                                See more </a>
+                                        </dd>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pad30"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="ul2 details">
+                            <li class="hvr-sweep-to-top2">
+                                <div class="table-div2">
+                                    <div class="table-middle-align2">
+                                        <h2>
+                                            JLPT Preparatory Courses </h2>
+                                        <hr class="hrl">
+                                        <dd>
+                                            <p class="maintext" style="text-align:center">
+                                                Saturdays<br>
+                                                10 a.m. ~ 1 p.m. </p>
+                                            <br>
+                                        </dd>
+                                        <dd>
+                                            <a href="./course/preparation-classes/jlpt.html" class="bt-samp30">
+                                                See more </a>
+                                        </dd>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pad30"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content2 promo">
+        <div class="container">
+            <div class="row container">
+                <div class="col-xs-12">
+                    <h1>
+                        Japanese school in Tokyo</h1>
+                    <div class="pad20"></div>
+                    <p class="maintext">
+                        Shinjuku Japanese Language Institute (SNG stands for Shinjuku Nihongo Gakko in Japanese) is an
+                        educational foundation authorized by the Ministry of Education and the Tokyo Metropolitan
+                        Government. Our institute offers Japanese language courses to over 500 students coming from more
+                        than 50 countries around the world. Students have benefited from the teaching expertise of SNG for
+                        the last 40 years. Our school is ideally located in the student district of Takadanobaba, the
+                        student area Tokyo.<br>
+                        We employ the Ezoe Teaching Method, a unique and visual learning method, fine-tuned for teaching
+                        Japanese to foreigners. Combined with our blended learning system “Visual Learning Japanese”
+                        (created in collaboration with NTT Communications), students can continue practicing at home, thus
+                        learning the Japanese language basics faster.
+                        Our school is situated in a Tokyo student district of Takadanobaba. There are different metro and JR
+                        stations nearby so that you get an easy access.</p>
+                    <div class="pad20"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax" data-parallax="scroll" data-image-src="{{ asset('IMG_8966.jpg', 'img') }}" data-bleed="10" data-speed="0.3">
+        <div class="container" style="text-align:center">
+            <div class="pad10"></div>
+            <p>
+                <font size="+5">
+                    What's great about SNG: </font>
+            </p>
+        </div>
+        <div class="pad20"></div>
+    </div>
+    <div class="content2 promo">
+        <div class="container">
+            <div class="row">
+                <div class="pad20"></div>
+                <ul class="col-xs-12 promo-header">
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-globe fa-fw" aria-hidden="true"></i>International environment
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-mobile fa-fw" aria-hidden="true"></i>Exclusive tools
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-university fa-fw" aria-hidden="true"></i>Long history
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-file-text fa-fw" aria-hidden="true"></i>Efficient method
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-check-circle-o fa-fw" aria-hidden="true"></i>Recognized School
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-comments fa-fw" aria-hidden="true"></i>Multi-lingual
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>Strong Higher Education
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-pencil fa-fw" aria-hidden="true"></i>Excellent Teacher Training
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>Perfect Location
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                        <i class="fa fa-suitcase fa-fw" aria-hidden="true"></i>Helpful Employment Support
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pad20"></div>
+    </div>
+    <div class="pad20"></div>
+    <div class="parallax" data-parallax="scroll" data-image-src="{{ asset('IMG_9296.jpg', 'img') }}" data-bleed="20" data-speed="0.3">
+        <div class="container" style="text-align:center">
+            <div class="pad10"></div>
+            <p>
+                <font size="+5">
+                    What's hot? </font>
+            </p>
+        </div>
+        <div class="pad20"></div>
+    </div>
+    <div class="content2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 separator">
+                    <div class="pad20"></div>
+                    <div class="pad10"></div>
+                    <p class="section-title">
+                        <span>What's hot?</span>
+                    </p>
+                    <div class="maintext-news">
+                        <ul id="latest_posts" class="leaders">
+                            <li>
+                                <a href="https://www.sng.ac.jp/en/sng-news/awaodori-traditional-japanese-festival/"
+                                   title="Awaodori: A traditional Japanese festival"><span>Nov 12, 2019</span>
+                                    <span>Awaodori: A traditional Japanese festival</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.sng.ac.jp/en/sng-news/notice-cancellation-due-approaching-typhoon/"
+                                   title="Notice of cancellation due to approaching typhoon"><span>Oct 10, 2019</span>
+                                    <span>Notice of cancellation due to approaching typhoon</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.sng.ac.jp/en/sng-news/write-resume-work-japan/"
+                                   title="How to write a resume to work in Japan?"><span>Aug 20, 2019</span>
+                                    <span>How to write a resume to work in Japan?</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.sng.ac.jp/en/sng-news/renting-apartment-tokyo/"
+                                   title="Renting an Apartment in Tokyo"><span>Jun 20, 2019</span>
+                                    <span>Renting an Apartment in Tokyo</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.sng.ac.jp/en/sng-news/baito-part-time-job-find-work-japan/"
+                                   title="Baito and part-time job: how to find work in Japan"><span>May 24, 2019</span>
+                                    <span>Baito and part-time job: how to find work in Japan</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.sng.ac.jp/en/sng-news/open-bank-account-japan/"
+                                   title="How to open a bank account in Japan"><span>May 17, 2019</span>
+                                    <span>How to open a bank account in Japan</span></a>
+                            </li>
+                            <div class="pad20"></div>
+                            <a href="/en/sng-news/">
+                                <button type="button" class="btn btn-custom">See more</button>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="pad20"></div>
+                </div>
+                <div class="col-md-6 col-sm-12 digital">
+                    <div class="pad20"></div>
+                    <p class="section-title">
+                        <span>Digital contents</span>
+                    </p>
+                    <div class="col-xs-12 digital_item_container hiddentextblock">
+                        <div class="col-xs-3 digital_item">
+                            <a href="/en/about/vlj.html" class="hvr-sweep-to-top digital_link_wrapper">
+                                <div class="table-div">
+                                    <div class="table-middle-align">
+                                        <span class="hidden-text">VLJ</span>
+                                    </div>
+                                </div>
+                                <img src="{{ asset('vlj.jpg', 'img') }}">
+                            </a>
+                        </div>
+                        <div class="col-xs-3 digital_item">
+                            <a href="{{ asset('sng-monthly-magazine.html', 'img') }}"
+                               class="hvr-sweep-to-top digital_link_wrapper">
+                                <div class="table-div">
+                                    <div class="table-middle-align">
+                                        <span class="hidden-text">Magazine</span>
+                                    </div>
+                                </div>
+                                <img src="{{ asset('201608thumb.jpg', 'img') }}">
+                            </a>
+                        </div>
+                        <div class="col-xs-3 digital_item">
+                            <a href="kanji.html" class="hvr-sweep-to-top digital_link_wrapper">
+                                <div class="table-div">
+                                    <div class="table-middle-align">
+                                        <span class="hidden-text">Kanji100</span>
+                                    </div>
+                                </div>
+                                <img src="{{ asset('kanji.png', 'img') }}"></a>
+                        </div>
+                        <div class="col-xs-3 digital_item">
+                            <a href="https://www.sng.ac.jp/homework/" target="_blank"
+                               class="hvr-sweep-to-top digital_link_wrapper">
+                                <div class="table-div">
+                                    <div class="table-middle-align">
+                                        <span class="hidden-text">Homework</span>
+                                    </div>
+                                </div>
+                                <img src="{{ asset('homework.png', 'img') }}">
+                            </a>
+                            <div class="pad20"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title separator">
+                    <div class="pad20"></div>
+                    <p>
+                        <span>Movies</span>
+                    </p>
+                    <div class="owl-carouselvideo">
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=ASSGFFuusME"></a>
+                            <p class="subtitle">VLJ introduction</p>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=GcKNSZXH_PE"></a>
+                            <p class="subtitle">Students interview</p>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=tFwJQxfrjZM"></a>
+                            <p class="subtitle">Canned bread</p>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=unU2aIzh6Gg"></a>
+                            <p class="subtitle">Student project video</p>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=0M2nA-xscKs"></a>
+                            <p class="subtitle">Student project video</p>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=lSG0hGPkGJw"></a>
+                            <p class="subtitle">Student project video</p>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=aEJmS7JYfdw"></a>
+                            <p class="subtitle">Student project video</p>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=R4JcHRUw-xM"></a>
+                            <p class="subtitle">Student project video</p>
+                        </div>
+                        <div class="item-video link-view-more" data-merge="2">
+                            <a target="_blank" class="text-view-all"
+                               href="https://www.youtube.com/channel/UCt3Cir6heyBSK-3nY9SwSpQ">See all</a>
+                        </div>
+                        <div class="item-video" data-merge="2">
+                            <a class="owl-video" href="https://www.youtube.com/watch?v=MTFxGfWuVNU"></a>
+                            <p class="subtitle">AKB's fortune cookie by SNG</p>
+                        </div>
+                    </div>
+                    <div class="pad20"></div>
+                </div>
+                <div class="col-sm-12 section-title">
+                    <div class="pad20"></div>
+                    <div class="owl-carousel accred">
+                        <div class="hiddentextblock">
+                            <div class="hvr-sweep-to-top partner_item">
+                                <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=54660" target="_blank">
+                                    <div class="table-div">
+                                        <div class="table-middle-align">
+                                            <span class="hidden-text">ISO 29991:2014Language learning services outside formal education</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <img src="{{ asset('accreditation/iso.png', 'img') }}">
+                            </div>
+                        </div>
+                        <div class="hiddentextblock">
+                            <div class="hvr-sweep-to-top partner_item">
+                                <a href="http://www.ccifj.or.jp/jp/" target="_blank">
+                                    <div class="table-div">
+                                        <div class="table-middle-align">
+                                            <span class="hidden-text">French chamber of commerce</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <img src="{{ asset('accreditation/Logo_CCIFJ_CMYK_officiel.png', 'img') }}">
+                            </div>
+                        </div>
+                        <div class="hiddentextblock">
+                            <div class="hvr-sweep-to-top partner_item">
+                                <a href="http://www.nisshinkyo.org/" target="_blank">
+                                    <div class="table-div">
+                                        <div class="table-middle-align">
+                                            <span class="hidden-text">Association for Japanese Education promotion</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <img src="{{ asset('accreditation/nisshinkyo.png', 'img') }}">
+                            </div>
+                        </div>
+                        <div class="hiddentextblock">
+                            <div class="hvr-sweep-to-top partner_item">
+                                <a href="http://bgj.co.jp/" target="_blank">
+                                    <div class="table-div">
+                                        <div class="table-middle-align">
+                                            <span class="hidden-text">Be good Japan<br>Accomodation</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <img src="{{ asset('accreditation/bgjlogo-green.png', 'img') }}">
+                            </div>
+                        </div>
+                        <div class="hiddentextblock">
+                            <div class="hvr-sweep-to-top partner_item">
+                                <a href="https://andtokyo.jp/brand/" target="_blank">
+                                    <div class="table-div">
+                                        <div class="table-middle-align">
+                                            <span class="hidden-text">SNG is a Tokyo Brand action partner.</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <img src="{{ asset('accreditation/TOKYO_BRAND_LOGO.jpeg', 'img') }}">
+                            </div>
+                        </div>
+                        <div class="hiddentextblock">
+                            <div class="hvr-sweep-to-top partner_item">
+                                <a href="http://www.jnto.go.jp/" target="_blank">
+                                    <div class="table-div">
+                                        <div class="table-middle-align">
+                                            <span class="hidden-text">Japan National Tourism Organization</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <img src="{{ asset('japan-endless-discovery.jpg', 'img') }}">
+                            </div>
+                        </div>
+                        <div class="hiddentextblock">
+                            <div class="hvr-sweep-to-top partner_item">
+                                <a href="http://www.g-studyinjapan.jasso.go.jp/ja/" target="_blank">
+                                    <div class="table-div">
+                                        <div class="table-middle-align">
+                                            <span class="hidden-text">Study in Japan</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <img src="{{ asset('study-in-japan.jpg', 'img') }}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="google-maps">
+        <iframe width="600" height="450" frameborder="0" style="border:0;width:100%;height:100%" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC_XmjnIk8Y9Z0S8KaXS-Oht8liHibAARk&amp;q=%E3%80%92169-0075+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%97&amp;zoom=18" allowfullscreen>
+        </iframe>
+    </div>
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ asset('sng.index.min.js', 'js')}}"></script>
+<script>$(".owl-carousel").owlCarousel({margin: 20, center: true, loop: true, autoWidth: true, items: 1});</script>
+<script>$(".owl-carouselvideo").owlCarousel({
+        items: 1,
+        merge: true,
+        loop: true,
+        margin: 10,
+        video: true,
+        lazyLoad: true,
+        center: true,
+        responsive: {480: {items: 2}, 600: {items: 4}}
+    });</script>
+{% endblock %}
