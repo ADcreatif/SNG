@@ -2879,32 +2879,33 @@
         },
         {
             "name": "php-translation/symfony-storage",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-translation/symfony-storage.git",
-                "reference": "8d7b1ea6bf22bee0c7dc9b228cf9437312373a27"
+                "reference": "ce305cedda67eefae65ea32b198d4d91e9294634"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-translation/symfony-storage/zipball/8d7b1ea6bf22bee0c7dc9b228cf9437312373a27",
-                "reference": "8d7b1ea6bf22bee0c7dc9b228cf9437312373a27",
+                "url": "https://api.github.com/repos/php-translation/symfony-storage/zipball/ce305cedda67eefae65ea32b198d4d91e9294634",
+                "reference": "ce305cedda67eefae65ea32b198d4d91e9294634",
                 "shasum": ""
             },
             "require": {
                 "nyholm/nsa": "^1.1",
-                "php": "^5.5 || ^7.0",
+                "php": "^7.2",
                 "php-translation/common": "^1.0",
-                "symfony/translation": "^2.7 || ^3.0 || ^4.0"
+                "symfony/translation": "^3.4 || ^4.2 || ^5.0"
             },
             "require-dev": {
-                "symfony/framework-bundle": "^2.7.39 || ^3.0 || ^4.0",
-                "symfony/phpunit-bridge": "^3.4 || ^4.0"
+                "phpunit/phpunit": "^8.4",
+                "symfony/framework-bundle": " ^3.4 || ^4.2 || ^5.0",
+                "symfony/phpunit-bridge": "^4.2 || ^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -2923,7 +2924,7 @@
                 }
             ],
             "description": "A translation file storage using Symfony translation component.",
-            "time": "2018-07-10T10:32:01+00:00"
+            "time": "2019-12-05T09:44:20+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -3734,20 +3735,20 @@
         },
         {
             "name": "symfony/cache-contracts",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache-contracts.git",
-                "reference": "a91281de82119a7a07481b892f709d88da592cd3"
+                "reference": "23ed8bfc1a4115feca942cb5f1aacdf3dcdf3c16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/a91281de82119a7a07481b892f709d88da592cd3",
-                "reference": "a91281de82119a7a07481b892f709d88da592cd3",
+                "url": "https://api.github.com/repos/symfony/cache-contracts/zipball/23ed8bfc1a4115feca942cb5f1aacdf3dcdf3c16",
+                "reference": "23ed8bfc1a4115feca942cb5f1aacdf3dcdf3c16",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.9",
+                "php": "^7.2.5",
                 "psr/cache": "^1.0"
             },
             "suggest": {
@@ -3788,7 +3789,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-11-09T09:18:34+00:00"
+            "time": "2019-11-18T17:27:11+00:00"
         },
         {
             "name": "symfony/config",
@@ -3931,16 +3932,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.0",
+            "version": "v4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "b24b791f817116b29e52a63e8544884cf9a40757"
+                "reference": "b8600a1d7d20b0e80906398bb1f50612fa074a8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/b24b791f817116b29e52a63e8544884cf9a40757",
-                "reference": "b24b791f817116b29e52a63e8544884cf9a40757",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/b8600a1d7d20b0e80906398bb1f50612fa074a8e",
+                "reference": "b8600a1d7d20b0e80906398bb1f50612fa074a8e",
                 "shasum": ""
             },
             "require": {
@@ -3983,7 +3984,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-10T17:54:30+00:00"
+            "time": "2019-11-28T13:33:56+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -4542,16 +4543,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.4.8",
+            "version": "v1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f"
+                "reference": "59b42aa1d3385a21683601c15e63eb35d2ebe8a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f",
-                "reference": "f5bfc79c1f5bed6b2bb4ca9e49a736c2abc03e8f",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/59b42aa1d3385a21683601c15e63eb35d2ebe8a4",
+                "reference": "59b42aa1d3385a21683601c15e63eb35d2ebe8a4",
                 "shasum": ""
             },
             "require": {
@@ -4567,7 +4568,7 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 },
                 "class": "Symfony\\Flex\\Flex"
             },
@@ -4587,7 +4588,7 @@
                 }
             ],
             "description": "Composer plugin for Symfony",
-            "time": "2019-11-14T09:25:51+00:00"
+            "time": "2019-12-01T15:56:52+00:00"
         },
         {
             "name": "symfony/form",
@@ -5062,7 +5063,7 @@
         },
         {
             "name": "symfony/inflector",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/inflector.git",
@@ -5195,16 +5196,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "76f3c09b7382bf979af7bcd8e6f8033f1324285e"
+                "reference": "0e6a4ced216e49d457eddcefb61132173a876d79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/76f3c09b7382bf979af7bcd8e6f8033f1324285e",
-                "reference": "76f3c09b7382bf979af7bcd8e6f8033f1324285e",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/0e6a4ced216e49d457eddcefb61132173a876d79",
+                "reference": "0e6a4ced216e49d457eddcefb61132173a876d79",
                 "shasum": ""
             },
             "require": {
@@ -5253,7 +5254,7 @@
                 "mime",
                 "mime-type"
             ],
-            "time": "2019-11-18T17:27:11+00:00"
+            "time": "2019-11-30T14:12:50+00:00"
         },
         {
             "name": "symfony/monolog-bridge",
@@ -5469,7 +5470,7 @@
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
@@ -5527,7 +5528,7 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
@@ -5589,7 +5590,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -5648,7 +5649,7 @@
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
@@ -5703,7 +5704,7 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.13.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -5877,7 +5878,7 @@
         },
         {
             "name": "symfony/property-info",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-info.git",
@@ -7129,16 +7130,16 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "e2f1eeb12edacf744c4b359a859204578fdf8549"
+                "reference": "1b9653e68d5b701bf6d9c91bdd3660078c9f4f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/e2f1eeb12edacf744c4b359a859204578fdf8549",
-                "reference": "e2f1eeb12edacf744c4b359a859204578fdf8549",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/1b9653e68d5b701bf6d9c91bdd3660078c9f4f28",
+                "reference": "1b9653e68d5b701bf6d9c91bdd3660078c9f4f28",
                 "shasum": ""
             },
             "require": {
@@ -7185,7 +7186,7 @@
                 "instantiate",
                 "serialize"
             ],
-            "time": "2019-11-18T17:27:11+00:00"
+            "time": "2019-12-01T08:48:26+00:00"
         },
         {
             "name": "symfony/web-link",
@@ -7725,7 +7726,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
@@ -7784,7 +7785,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -7933,7 +7934,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -8062,16 +8063,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "3c288a1f1a46ddffc299fd46ddb643d50debde85"
+                "reference": "010cf42a81e7bec744edfdef5f76d6394f4906a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/3c288a1f1a46ddffc299fd46ddb643d50debde85",
-                "reference": "3c288a1f1a46ddffc299fd46ddb643d50debde85",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/010cf42a81e7bec744edfdef5f76d6394f4906a7",
+                "reference": "010cf42a81e7bec744edfdef5f76d6394f4906a7",
                 "shasum": ""
             },
             "require": {
@@ -8123,7 +8124,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2019-11-08T16:32:03+00:00"
+            "time": "2019-11-28T14:20:16+00:00"
         },
         {
             "name": "symfony/profiler-pack",
@@ -8249,16 +8250,16 @@
         },
         {
             "name": "symfony/web-server-bundle",
-            "version": "v4.3.8",
+            "version": "v4.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-server-bundle.git",
-                "reference": "dc26b980900ddf3e9feade14e5b21c029e8ca92f"
+                "reference": "cf3172e6c3a1c996058b377cc92011b747607184"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/web-server-bundle/zipball/dc26b980900ddf3e9feade14e5b21c029e8ca92f",
-                "reference": "dc26b980900ddf3e9feade14e5b21c029e8ca92f",
+                "url": "https://api.github.com/repos/symfony/web-server-bundle/zipball/cf3172e6c3a1c996058b377cc92011b747607184",
+                "reference": "cf3172e6c3a1c996058b377cc92011b747607184",
                 "shasum": ""
             },
             "require": {
@@ -8304,7 +8305,7 @@
             ],
             "description": "Symfony WebServerBundle",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T14:27:59+00:00"
+            "time": "2019-11-26T03:44:44+00:00"
         }
     ],
     "aliases": [],
