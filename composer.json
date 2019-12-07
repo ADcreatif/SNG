@@ -83,7 +83,7 @@
     "extra" : {
         "symfony" : {
             "allow-contrib": false,
-            "require": "5.0.*"
+            "require": "4.4.0"
         }
     },
     "minimum-stability": "dev",
