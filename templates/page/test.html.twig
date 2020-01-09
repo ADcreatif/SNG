@@ -3,6 +3,7 @@
 {% block title %}Translation management !{% endblock %}
 
 {% block body %}
+    <header class="container"><h1>{{ "homepage.title"|trans }}</h1></header>
     <nav class="container">
         <h1>Locale : {{ app.request.attributes.get('_locale')  }}</h1>
         <ul>

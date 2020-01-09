@@ -31,6 +31,7 @@
         "symfony/twig-bundle": "4.3.*",
         "symfony/validator": "4.3.*",
         "symfony/web-link": "4.3.*",
+        "symfony/web-profiler-bundle": "4.3.*",
         "symfony/yaml": "4.3.*"
     },
     "require-dev": {
@@ -79,12 +80,6 @@
     },
     "conflict": {
         "symfony/symfony": "*"
-    },
-    "extra" : {
-        "symfony" : {
-            "allow-contrib": false,
-            "require": "4.4.0"
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true

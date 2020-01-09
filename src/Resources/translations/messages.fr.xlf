@@ -2,57 +2,95 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr">
   <file id="messages.fr">
     <unit id="XPfX7By" name="lang">
+      <notes>
+        <note category="file-source" priority="1">templates\base.html.twig:3</note>
+      </notes>
       <segment>
         <source>lang</source>
         <target>fr</target>
       </segment>
     </unit>
-    <unit id="vIsaIpH" name="username.label">
+    <unit id="bCwLjjP" name="homepage.title">
+      <notes>
+        <note category="file-source" priority="1">templates\page\test.html.twig:6</note>
+        <note category="state" priority="1">new</note>
+      </notes>
       <segment>
-        <source>username.label</source>
-        <target>Nom d'utilisateur</target>
-      </segment>
-    </unit>
-    <unit id="tXPCtsC" name="password.label">
-      <segment>
-        <source>password.label</source>
-        <target>Mot de passe</target>
-      </segment>
-    </unit>
-    <unit id="g4NeGFE" name="login.submit.label">
-      <segment>
-        <source>login.submit.label</source>
-        <target>Connexion</target>
-      </segment>
-    </unit>
-    <unit id="cIwgUtj" name="translate.button">
-      <segment>
-        <source>translate.button</source>
-        <target>Traduction</target>
-      </segment>
-    </unit>
-    <unit id="qTvXLl9" name="logout.button">
-      <segment>
-        <source>logout.button</source>
-        <target>Déconnexion</target>
+        <source>homepage.title</source>
+        <target>Bienvenue sur ce site trop génial
+</target>
       </segment>
     </unit>
     <unit id="ZrFZxMc" name="partners.button">
+      <notes>
+        <note category="file-source" priority="1">templates\page\test.html.twig:10</note>
+      </notes>
       <segment>
         <source>partners.button</source>
         <target>Nos partenaires</target>
       </segment>
     </unit>
     <unit id="NcgtC1d" name="legal.button">
+      <notes>
+        <note category="file-source" priority="1">templates\page\test.html.twig:11</note>
+      </notes>
       <segment>
         <source>legal.button</source>
         <target>Informations légales</target>
       </segment>
     </unit>
     <unit id="cSoRBxB" name="contactus.button">
+      <notes>
+        <note category="file-source" priority="1">templates\page\test.html.twig:12</note>
+      </notes>
       <segment>
         <source>contactus.button</source>
         <target>Contactez nous</target>
+      </segment>
+    </unit>
+    <unit id="cIwgUtj" name="translate.button">
+      <notes>
+        <note category="file-source" priority="1">templates\page\test.html.twig:16</note>
+      </notes>
+      <segment>
+        <source>translate.button</source>
+        <target>Traduction</target>
+      </segment>
+    </unit>
+    <unit id="qTvXLl9" name="logout.button">
+      <notes>
+        <note category="file-source" priority="1">templates\page\test.html.twig:17</note>
+      </notes>
+      <segment>
+        <source>logout.button</source>
+        <target>Déconnexion</target>
+      </segment>
+    </unit>
+    <unit id="vIsaIpH" name="username.label">
+      <notes>
+        <note category="file-source" priority="1">src\Form\LoginType.php:18</note>
+      </notes>
+      <segment>
+        <source>username.label</source>
+        <target>Nom d'utilisateur</target>
+      </segment>
+    </unit>
+    <unit id="tXPCtsC" name="password.label">
+      <notes>
+        <note category="file-source" priority="1">src\Form\LoginType.php:23</note>
+      </notes>
+      <segment>
+        <source>password.label</source>
+        <target>Mot de passe</target>
+      </segment>
+    </unit>
+    <unit id="g4NeGFE" name="login.submit.label">
+      <notes>
+        <note category="file-source" priority="1">src\Form\LoginType.php:28</note>
+      </notes>
+      <segment>
+        <source>login.submit.label</source>
+        <target>Connexion</target>
       </segment>
     </unit>
   </file>
